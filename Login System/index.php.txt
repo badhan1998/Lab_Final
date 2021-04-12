@@ -1,0 +1,18 @@
+<?php
+session_start();
+?>
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+
+<?php
+if($_SESSION["name"]) {
+?>
+Welcome <?php echo $_SESSION["name"]; ?>.<a href="logout.php" tite="Logout">Logout.
+<?php
+}else echo "<h1>login first.</h1>";
+?>
+</body>
+</html>
