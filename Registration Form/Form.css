@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 5px; 
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+body{
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    background: url(b.jpg) ;
+    background-size: 150%;
+    background-position: 50%;
+    padding: 0px;
+    justify-content: center;
+ 
+      
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgba(232, 21, 21, 0.85);
+
+}
+.container{
+    margin: 0px 500px;
+    padding: 30px 100px;
+}
+
+
+.container form{
+    text-align: left;
+    padding: 30px;
+    background-color:black;
+    width: 100%;
+    font-size: 4px;
+    border-radius: 50px;
+    border: 1px black ;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    opacity: 0.7;
+    
+    
+}
+label{
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+       
+
+}
+form input{
+    width: 70%;
+    height: 50%;
+    margin: 2px 0;
+    border: 1px white;
+    border-radius: 3px;
+    background: rgba(173, 106, 106, 0.68);
+    padding: 2px 15px;
+    font-size: 20px;
+}
+
+form textarea{
+    padding: 5px 5px;
+    border: 1px solid #d40d0d;
+    border-radius: 6px;
+    background: #e2b0b0;
+    font-size: 2px;
+    width: 100%;
+    margin: 0px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #d41414;
+    color: rgb(255, 253, 253);
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 9px;  
+    transition: 0.6s ease;
+    
+
+}
+
+form input:focus,
+form textarea:focus{
+    border: 3px solid hsl(0, 84%, 45%);
+    color: #f8f8f8;
+    transition: all 0.3s ease;
+
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #020202;
+    transition: all 0.3s ease;
+}
+
+.btn1:hover{
+    box-shadow: inset 1000px 0 0 0 #ff0014;
+    color: #020202;
+}
+
+.btn2:hover{
+    box-shadow: inset 1000px 0 0 0 #ff0014;
+    color: #020202;
+}
+
+
+
+
+
+    
+
+
+    
+
+
+
